@@ -1,24 +1,5 @@
 [
     {
-        "name": "FLUX.1-dev",
-        "type": "flux-dev",
-        "author": "black-forest-labs",
-        "info_url": "https://huggingface.co/HighCWu/FLUX.1-dev-4bit",
-        "file_url": "https://files.heurist.xyz/FLUX.1-dev/",
-        "dtype": "nf4",
-        "size_mb": 35000,
-        "defaults": {
-            "width": 680,
-            "height": 1024,
-            "max_width": 2048,
-            "max_height": 2048,
-            "neg_prompt": null,
-            "num_inference_steps": 20,
-            "guidance_scale": 2.5,
-            "seed": -1
-        }
-    },
-    {
         "name": "PepeXL",
         "base": "AAMXLAnimeMix",
         "author": "doctor_diffusion",
@@ -309,86 +290,6 @@
         "defaults": {
             "width": 512,
             "height": 768,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "SDXLUnstableDiffusersV11",
-        "author": "Yamer",
-        "type": "sdxl10",
-        "info_url": "https://civitai.com/models/84040?modelVersionId=276923",
-        "file_url": "https://files.heurist.xyz/sdxlUnstableDiffusers_v11.safetensors",
-        "dtype": "float16",
-        "size_mb": 6950,
-        "checksum": "096EB037FC8AB7F154BF2DE9FBFF3B433F32E9BC66A1FAE9C14F28E881AF1D11",
-        "defaults": {
-            "width": 680,
-            "height": 1024,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "AnimagineXL",
-        "author": "CagliostroLab",
-        "type": "sdxl10",
-        "info_url": "https://civitai.com/models/260267?modelVersionId=293564",
-        "file_url": "https://files.heurist.xyz/animagineXLV31_v30.safetensors",
-        "dtype": "float16",
-        "size_mb": 6950,
-        "checksum": "1449E5B0B9DE87B0F414C5F29CB11CE3B3DC61FA2B320E784C9441720BF7B766",
-        "defaults": {
-            "width": 680,
-            "height": 1024,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "CyberRealisticXL",
-        "author": "Cyberdelia",
-        "type": "sdxl10",
-        "info_url": "https://civitai.com/models/312530?modelVersionId=395041",
-        "file_url": "https://files.heurist.xyz/cyberrealisticXL_v11VAE.safetensors",
-        "dtype": "float16",
-        "size_mb": 6950,
-        "checksum": "E9337AE032D6A2D411702FC6ACAD76BFBDDDEB1A697A62BFDB83881E949532C8",
-        "defaults": {
-            "width": 680,
-            "height": 1024,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "DreamShaperXL",
-        "author": "Lykon",
-        "type": "sdxl10",
-        "info_url": "https://civitai.com/models/112902/dreamshaper-xl",
-        "file_url": "https://files.heurist.xyz/dreamshaperXL_v21TurboDPMSDE.safetensors",
-        "dtype": "float16",
-        "size_mb": 6950,
-        "checksum": "4496B36D48BFD7CFE4E5DBCE3485DB567BCEFA2BEF7238D290DBD45612125083",
-        "defaults": {
-            "width": 680,
-            "height": 1024,
             "max_width": 1024,
             "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
